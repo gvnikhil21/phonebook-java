@@ -1,0 +1,14 @@
+</div>
+<div class="container text-center">
+	<div>
+	Change Theme: 
+		<a href="./theme?name=yeti" class="btn btn-${cookie.theme.value=='yeti'?'primary':'link'} text-decoration-none">Yeti</a> |
+		<a href="./theme?name=darkly" class="btn btn-${cookie.theme.value=='darkly'?'primary':'link'} text-decoration-none">Darkly</a> |
+		<a href="./theme?name=pulse" class="btn btn-${cookie.theme.value=='pulse'?'primary':'link'} text-decoration-none">Pulse</a> |
+		<a href="./theme?name=superhero" class="btn btn-${cookie.theme.value=='superhero'?'primary':'link'} text-decoration-none">SuperHero</a> | 
+		<a href="./theme?name=united" class="btn btn-${cookie.theme.value=='united'?'primary':'link'} text-decoration-none">United</a>
+	</div>
+	&copy; 2022-2023 All rights reserved by GV
+</div>
+</body>
+</html>
